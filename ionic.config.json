@@ -1,0 +1,7 @@
+{
+  "name": "Ionic5-Accordion",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

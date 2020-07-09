@@ -1,0 +1,15 @@
+<div class="tabs">
+  <div class="tab">
+    <input type="radio" [attr.id]="'rd_' + itemIndex" name="rd">
+    <label class="tab-label" [attr.for]="'rd_' + itemIndex">{{title}}</label>
+    <div class="tab-content">
+      <img [src]="imageUrl"/>
+      <ng-content></ng-content>
+    </div>
+  </div>
+  <!-- Option to close all tabs (just for testing). -->
+  <div class="tab">
+    <input type="radio" id="rd999" name="rd">
+    <label class="tab-close" for="rd999">Close others &times;</label>
+  </div>
+</div>
